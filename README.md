@@ -43,10 +43,10 @@ So let's start by looking at the sales details from AdventureWorks2022
 AdventureWorks2022 have some important dimensions that could describe the Sales process like;
 
 1. Products
-   ![Products_ERD](https://github.com/user-attachments/assets/69cb6d74-3636-4bda-b778-9c407393c678)
+![Products_ERD](https://github.com/user-attachments/assets/69cb6d74-3636-4bda-b778-9c407393c678)
 
 2. Customers
-   ![Customers_ERD](https://github.com/user-attachments/assets/1090c414-b1f8-437b-8b73-d73b77e9f25a)
+![Customers_ERD](https://github.com/user-attachments/assets/1090c414-b1f8-437b-8b73-d73b77e9f25a)
    
 
 
