@@ -5,10 +5,10 @@ In this project, I transformed the AdventureWorks2022 dataset from its original 
 
 # Contents
  ### 1- Project Stages
-# 2- OLTP Database Overview.
-# 3- Data Mart Modeling,
-# 4- Data Mart ETL Process Using SSIS.
-# 5- Replacing Null and Orphan Data Handling.
-# 6- Fact Table Loading.
-# 7- Incremental Loading of Data.
-# 8- Key Visualizations Using PowerBI.
+###  2- OLTP Database Overview.
+###  3- Data Mart Modeling,
+###  4- Data Mart ETL Process Using SSIS.
+###  5- Replacing Null and Orphan Data Handling.
+###  6- Fact Table Loading.
+###  7- Incremental Loading of Data.
+###  8- Key Visualizations Using PowerBI.
