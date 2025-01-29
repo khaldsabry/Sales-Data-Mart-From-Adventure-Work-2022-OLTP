@@ -56,6 +56,22 @@ AdventureWorks2022 have some important dimensions that could describe the Sales 
 
 4. Sales Person
 5. shipping method
+
+
+# (3/8) Data Mart Modeling
+
+The Sales data Mart, was designed using a Star schema approach. I have chose to model the data mart as a star schema for the efficiency, Simplicity, Analytical Efficiency and fast retrieval of data to meet customer needs.The schema consists of:
+
+Fact Tables: Central tables that store quantitative data.
+
+Dimension Tables: Surrounding tables that store descriptive attributes (e.g., customer, Product, Territory, Shipping Method, Sales Person). 
+A date dimension was added to track historical changes and enable time-based analysis.
+
+![Star Schema](https://github.com/user-attachments/assets/3f8292bd-7bed-4ee7-9653-2a73f48bcc62)
+
+
+
+
    
 
 
