@@ -49,6 +49,14 @@ AdventureWorks2022 have some important dimensions that could describe the Sales 
 2. Customers
 
   ![Customers_ERD](https://github.com/user-attachments/assets/1090c414-b1f8-437b-8b73-d73b77e9f25a)
+
+3. Territory
+
+   ![Territory_ERD](https://github.com/user-attachments/assets/d0a5c3e3-de58-4eb9-95e3-59124e939ea2)
+
+4. Sales Person
+5. shipping method
    
+
 
 
