@@ -13,7 +13,7 @@ In this project, I transformed the AdventureWorks2022 dataset from its original 
 ###  7- Incremental Loading of Data.
 ###  8- Key Visualizations Using PowerBI.
 
-# 1/8 Project Stages
+# (1/8) Project Stages
 
 #### 1. Data Source Selection:
 The data here is extracted from Microsoft's AdventureWorks2022 OLTP dataset. This dataset represents a virtual bike company with many departments like production, HR, and sales. The source file is found in the repo.
@@ -32,5 +32,7 @@ In the final stage of the project comes the fact table which carries all the mea
 
 #### 6. The Analysis and Reporting Phase:
 Focused on exploring the data in the data mart and generating actionable insights for the Sales data mart. This phase involved the creation of interactive reports and dashboards using Power BI, which allowed business users to explore the data and gain valuable insights.
+
+# (2/8) OLTP Database Overview
 
 
