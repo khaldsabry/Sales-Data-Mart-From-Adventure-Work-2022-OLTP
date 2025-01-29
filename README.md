@@ -30,4 +30,7 @@ The usage of many joins of tables results in many NULL values. Although these NU
 #### 5. Populating the Fact Table and Relationships Creation:
 In the final stage of the project comes the fact table which carries all the measures that will be the center of our analysis. In this stage, all records that represent a transaction made by a customer are populated to have a holistic view of the sales. Finally, we establish the relationships with the dimensions.
 
+#### 6. The Analysis and Reporting Phase:
+Focused on exploring the data in the data mart and generating actionable insights for the Sales data mart. This phase involved the creation of interactive reports and dashboards using Power BI, which allowed business users to explore the data and gain valuable insights.
+
 
