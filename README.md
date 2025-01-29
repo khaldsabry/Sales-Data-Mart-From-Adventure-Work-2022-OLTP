@@ -35,8 +35,18 @@ Focused on exploring the data in the data mart and generating actionable insight
 
 # (2/8) OLTP Database Overview
 
-We have to look at the shape and structure of the data we are working with to be able to know what attributes and measures we will need and how the project will start. As mentioned in the Project Stages section, in this project I am trying to model the sales process, so let's start by looking at the sales details from AdventureWorks2022
+We have to look at the shape and structure of the data we are working with to be able to know what attributes and measures we will need and how the project will start. As mentioned in the Project Stages section, in this project I am trying to model the sales process. 
+So let's start by looking at the sales details from AdventureWorks2022
 
 ![Sales_Order_ERD](https://github.com/user-attachments/assets/e26959d4-ce56-418b-986c-4681c23c563b)
+
+AdventureWorks2022 have some important dimensions that could describe the Sales process like;
+
+1. Products
+   ![Products_ERD](https://github.com/user-attachments/assets/69cb6d74-3636-4bda-b778-9c407393c678)
+
+2. Customers
+   ![Customers_ERD](https://github.com/user-attachments/assets/1090c414-b1f8-437b-8b73-d73b77e9f25a)
+   
 
 
