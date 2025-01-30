@@ -12,7 +12,7 @@ In this project, I transformed the AdventureWorks2022 dataset from its original 
 ###  6- Fact Table and Incremental Load of Data Loading.
 ###  7- Key Visualizations Using PowerBI.
 
-# (1/8) Project Stages
+# (1/7) Project Stages
 
 #### 1. Data Source Selection:
 The data here is extracted from Microsoft's AdventureWorks2022 OLTP dataset. This dataset represents a virtual bike company with many departments like production, HR, and sales. The source file is found in the repo.
@@ -32,7 +32,7 @@ In the final stage of the project comes the fact table which carries all the mea
 #### 6. The Analysis and Reporting Phase:
 Focused on exploring the data in the data mart and generating actionable insights for the Sales data mart. This phase involved the creation of interactive reports and dashboards using Power BI, which allowed business users to explore the data and gain valuable insights.
 
-# (2/8) OLTP Database Overview
+# (2/7) OLTP Database Overview
 
 We have to look at the shape and structure of the data we are working with to be able to know what attributes and measures we will need and how the project will start. As mentioned in the Project Stages section, in this project I am trying to model the sales process. 
 So let's start by looking at the sales details from AdventureWorks2022
@@ -57,7 +57,7 @@ AdventureWorks2022 have some important dimensions that could describe the Sales 
 5. shipping method
 
 
-# (3/8) Data Mart Modeling
+# (3/7) Data Mart Modeling
 
 The Sales data Mart, was designed using a Star schema approach. I have chose to model the data mart as a star schema for the efficiency, Simplicity, Analytical Efficiency and fast retrieval of data to meet customer needs.The schema consists of:
 
@@ -69,7 +69,7 @@ A date dimension was added to track historical changes and enable time-based ana
 ![Star Schema](https://github.com/user-attachments/assets/3f8292bd-7bed-4ee7-9653-2a73f48bcc62)
 
 
-# (4/8) Data Mart ETL Process Using SSIS
+# (4/7) Data Mart ETL Process Using SSIS
 
 The SSIS (SQL Server Integration Services) packages used in the Sales Data mart project to extract, transform, and load (ETL) data from the source database into the data mart.  
  
@@ -106,7 +106,23 @@ By the same concept as the Dim Customer, I have joined multiple tables to reach 
 
 
 # (5/8) Replacing Null and Orphan Data Handling
-Due to multiple joins from the dimensions and fact table, you will notice NULL values a lot. So I have added in each dimension (except the date dimension because it is not allowed to have a NULL date) an observation with the -1 Surrogate key. This observation will be referenced every time a null value occurs in the fact table. Now we can handle the NULL values by grouping them into one observation and have some insights from data just being NULL!
+Due to multiple joins from the dimensions and fact table, you will notice NULL values a lot. So I have added in each dimension (except the date dimension because it is not allowed to have a NULL date) an observation with the -1 Surrogate key. This observation will be referenced every time a null value occurs in the fact table. Now we can handle the NULL values by grouping them into one observation and have some insights from data just being NULL!. And there is a photo of the observation row
+
+![Orphan Handlind](https://github.com/user-attachments/assets/2476cf67-5a54-4cd5-a24b-265161b5c748)
+
+# (6/7) Fact Table and Incremental Load of Data
+
+#### Firstly Incremental loading of data
+I have created a Log control table to record the last time an ETL process was done. This Log table helps in querying the data that is only AFTER the last ETL process. 
+
+I used this Task flow to Handle it
+
+![Task Flow Incremental Load](https://github.com/user-attachments/assets/72021aa9-b41c-43dd-95bd-81a090c84deb)
+
+Then i Used this Packege to Load data into my fact sales table.
+
+![Fact Sales Full load](https://github.com/user-attachments/assets/b2c994e3-2f38-4e22-8adc-ed4027d7bd8a)
+
 
 
 
