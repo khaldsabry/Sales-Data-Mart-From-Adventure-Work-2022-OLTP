@@ -124,6 +124,12 @@ Then i Used this Packege to Load data into my fact sales table.
 ![Fact Sales Full load](https://github.com/user-attachments/assets/b2c994e3-2f38-4e22-8adc-ed4027d7bd8a)
 
 
+I have used technologies like SSIS and SSMS to handle the data. I also have used some of the intelligence tools like orphan handling and data warehousing standards to build the data mart which is ready for analysis and insights.
+
+
+# (7/7) Key Visualizations and Analysis Using PowerBI
+
+
 
 
 
