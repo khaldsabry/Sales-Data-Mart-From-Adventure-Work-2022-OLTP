@@ -177,7 +177,7 @@ Filled map to show total sales over group and territory
 
 ## Drill Through
 
-Used for show more details about top 10 best sales person 
+Used to show more details about the top 10 best sales person 
 
 
 ![Drill through](https://github.com/user-attachments/assets/ac7537ec-a7e9-4324-a7a3-83e49a5dcc10)
