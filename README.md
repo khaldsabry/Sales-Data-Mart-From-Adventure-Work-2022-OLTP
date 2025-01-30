@@ -135,6 +135,56 @@ I have used technologies like SSIS and SSMS to handle the data. I also have used
 
 # (7/7) Key Visualizations and Analysis Using PowerBI
 
+The Power BI dashboard provides actionable insights into the  sales data mart business operations. It is divided into thre pages, each focusing on a specific aspect of the business: Sales Report, Sales Persons Performance, Sales by Territory and last page contain a drill through which give a specific insight about sales person.
+
+
+To analyze the data and derive meaningful insights, I created several measures using DAX.
+
+![Measures](https://github.com/user-attachments/assets/45d65fc0-8708-4b1d-8495-0be0b9f8c735)
+
+
+## Sales Report
+
+![Sales](https://github.com/user-attachments/assets/2c815b2b-2a47-4edd-9cfc-74a384cab004)
+
+
+## Charts and Insights
+
+Total Due, NO. Orders, Total Tax, Total Qnty of orders, Total Freight (KPI Cards)
+
+Top 10 subcategory by Total Due (Funnel Chart)
+
+Growth Over year % (Line Chart)
+
+Most Ordered Color (Bar Chart)
+
+Total due and total tax by order (Correlation Analysis (scatter chart))
+
+
+## Sales Person Perfermance and Territory
+
+![Sales Person  And territory](https://github.com/user-attachments/assets/c1db5111-3bf3-433e-9421-8a58dc2054ed)
+
+
+Growth Over year %, Last Year Sales, Last month sales (KPI Cards)
+
+Top  10 best sales person Performance by No. Orders and total sales (Line and stacked column chart)
+
+Growth over territory and sales person in every territory ( Decomposition tree)
+
+Filled map to show total sales over group and territory
+
+
+## Drill Through
+
+Used for show more details about top 10 best sales person 
+
+
+![Drill through](https://github.com/user-attachments/assets/ac7537ec-a7e9-4324-a7a3-83e49a5dcc10)
+
+
+
+
 
 
 
