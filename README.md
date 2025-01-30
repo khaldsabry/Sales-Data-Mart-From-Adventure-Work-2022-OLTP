@@ -72,6 +72,42 @@ A date dimension was added to track historical changes and enable time-based ana
 
 # (4/8) Data Mart ETL Process Using SSIS
 
+The SSIS (SQL Server Integration Services) packages used in the Sales Data mart project to extract, transform, and load (ETL) data from the source database into the data mart.  
+ 
+My solution is composed of 5 Packages (4 for the normal ETL process for each dimension and 1 for the incremental load of the fact table ).
+
+![SSIS Packegs](https://github.com/user-attachments/assets/4fdb758f-5f9a-4416-8c2c-55a4f57f627f)
+
+
+#### Dim Customer
+I have used the SCD (Slowly Changing Dimension) Package to capture the change if done to any value of any dimension.
+
+![Customer Dim Initial Load](https://github.com/user-attachments/assets/253d252c-e26f-43fe-8f05-e7167eed5cb5)
+
+
+
+#### Dim Product
+
+By the same concept as the Dim Customer, I have joined multiple tables to reach the Products' dimension. Here is the full initial load of the dimensions table.
+
+![Product Dim Initial Load](https://github.com/user-attachments/assets/f61b830b-0e66-448d-b5ed-51e39ee06890)
+
+#### Dim Sales Man
+
+![Sales Person Dim Initial Load](https://github.com/user-attachments/assets/10ec9f30-7c9d-481c-bb97-ab096cdb2fbd)
+
+#### Dim Territory
+
+![Territory Dim Initial Load](https://github.com/user-attachments/assets/4456c53a-e77e-4896-a901-70285f20b0f2)
+
+
+#### Dim Shipping Method
+
+![Shipping Dim Initial Load](https://github.com/user-attachments/assets/f3d8b8ca-c61d-4017-8ee0-a4ab0f4531a4)
+
+
+
+
 
 
 
