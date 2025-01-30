@@ -9,9 +9,8 @@ In this project, I transformed the AdventureWorks2022 dataset from its original 
 ###  3- Data Mart Modeling.
 ###  4- Data Mart ETL Process Using SSIS.
 ###  5- Replacing Null and Orphan Data Handling.
-###  6- Fact Table Loading.
-###  7- Incremental Loading of Data.
-###  8- Key Visualizations Using PowerBI.
+###  6- Fact Table and Incremental Load of Data Loading.
+###  7- Key Visualizations Using PowerBI.
 
 # (1/8) Project Stages
 
@@ -104,6 +103,11 @@ By the same concept as the Dim Customer, I have joined multiple tables to reach 
 #### Dim Shipping Method
 
 ![Shipping Dim Initial Load](https://github.com/user-attachments/assets/f3d8b8ca-c61d-4017-8ee0-a4ab0f4531a4)
+
+
+# (5/8) Replacing Null and Orphan Data Handling
+Due to multiple joins from the dimensions and fact table, you will notice NULL values a lot. So I have added in each dimension (except the date dimension because it is not allowed to have a NULL date) an observation with the -1 Surrogate key. This observation will be referenced every time a null value occurs in the fact table. Now we can handle the NULL values by grouping them into one observation and have some insights from data just being NULL!
+
 
 
 
