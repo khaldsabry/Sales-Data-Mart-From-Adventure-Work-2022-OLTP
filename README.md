@@ -130,7 +130,7 @@ There is the fact sales table after loadin data
 
 
 
-I have used technologies like SSIS and SSMS to handle the data. I also have used some of the intelligence tools like orphan handling and data warehousing standards to build the data mart which is ready for analysis and insights.
+
 
 
 # (7/7) Key Visualizations and Analysis Using PowerBI
@@ -181,6 +181,12 @@ Used for show more details about top 10 best sales person
 
 
 ![Drill through](https://github.com/user-attachments/assets/ac7537ec-a7e9-4324-a7a3-83e49a5dcc10)
+
+
+
+# conclusion
+
+I have used technologies like SSIS and SSMS to handle the data. I also have used some of the intelligence tools like orphan handling and data warehousing standards to build the data mart which is ready for analysis and insights. Then i used Power BI dashboard to provides actionable insights into the  sales data mart business operations. 
 
 
 
