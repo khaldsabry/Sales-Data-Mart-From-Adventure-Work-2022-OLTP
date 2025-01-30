@@ -119,7 +119,7 @@ I used this Task flow to Handle it
 
 ![Task Flow Incremental Load](https://github.com/user-attachments/assets/72021aa9-b41c-43dd-95bd-81a090c84deb)
 
-Then i Used this Packege to Load data into my fact sales table.
+## Then i Used this Packege to Load data into my fact sales table.
 
 ![Fact Sales Full load](https://github.com/user-attachments/assets/b2c994e3-2f38-4e22-8adc-ed4027d7bd8a)
 
