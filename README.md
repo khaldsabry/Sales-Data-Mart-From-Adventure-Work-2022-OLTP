@@ -161,7 +161,7 @@ Most Ordered Color (Bar Chart)
 Total due and total tax by order (Correlation Analysis (scatter chart))
 
 
-## Sales Person Perfermance and Territory
+## Sales Person Performance and Territory
 
 ![Sales Person  And territory](https://github.com/user-attachments/assets/c1db5111-3bf3-433e-9421-8a58dc2054ed)
 
