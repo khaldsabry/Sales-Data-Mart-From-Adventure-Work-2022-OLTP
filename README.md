@@ -112,7 +112,7 @@ Due to multiple joins from the dimensions and fact table, you will notice NULL v
 
 # (6/7) Fact Table and Incremental Load of Data
 
-#### Firstly Incremental loading of data
+## Firstly Incremental loading of data
 I have created a Log control table to record the last time an ETL process was done. This Log table helps in querying the data that is only AFTER the last ETL process. 
 
 I used this Task flow to Handle it
