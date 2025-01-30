@@ -105,7 +105,7 @@ By the same concept as the Dim Customer, I have joined multiple tables to reach 
 ![Shipping Dim Initial Load](https://github.com/user-attachments/assets/f3d8b8ca-c61d-4017-8ee0-a4ab0f4531a4)
 
 
-# (5/8) Replacing Null and Orphan Data Handling
+# (5/7) Replacing Null and Orphan Data Handling
 Due to multiple joins from the dimensions and fact table, you will notice NULL values a lot. So I have added in each dimension (except the date dimension because it is not allowed to have a NULL date) an observation with the -1 Surrogate key. This observation will be referenced every time a null value occurs in the fact table. Now we can handle the NULL values by grouping them into one observation and have some insights from data just being NULL!. And there is a photo of the observation row
 
 ![Orphan Handlind](https://github.com/user-attachments/assets/2476cf67-5a54-4cd5-a24b-265161b5c748)
