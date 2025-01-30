@@ -124,6 +124,12 @@ I used this Task flow to Handle it
 ![Fact Sales Full load](https://github.com/user-attachments/assets/b2c994e3-2f38-4e22-8adc-ed4027d7bd8a)
 
 
+There is the fact sales table after loadin data
+
+![Fact Sales After Load](https://github.com/user-attachments/assets/64458a55-c2b9-4d73-a898-691dd298d410)
+
+
+
 I have used technologies like SSIS and SSMS to handle the data. I also have used some of the intelligence tools like orphan handling and data warehousing standards to build the data mart which is ready for analysis and insights.
 
 
