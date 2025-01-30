@@ -165,6 +165,7 @@ Total due and total tax by order (Correlation Analysis (scatter chart))
 
 ![Sales Person  And territory](https://github.com/user-attachments/assets/c1db5111-3bf3-433e-9421-8a58dc2054ed)
 
+# Charts and Insights
 
 Growth Over year %, Last Year Sales, Last month sales (KPI Cards)
 
